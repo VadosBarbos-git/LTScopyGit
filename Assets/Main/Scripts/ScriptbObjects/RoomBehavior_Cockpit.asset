@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d394208a49c8714ca4380dedcc4397b, type: 3}
-  m_Name: room_cockpit
+  m_Script: {fileID: 11500000, guid: e9495d0a02b142d40881ff46da7b4d47, type: 3}
+  m_Name: RoomBehavior_Cockpit
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
+  icon: {fileID: 0}

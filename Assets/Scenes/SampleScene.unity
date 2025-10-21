@@ -11628,68 +11628,85 @@ MonoBehaviour:
   - Colliders:
     - {fileID: 900712935}
     - {fileID: 2016309982}
+    bechavior: {fileID: 11400000, guid: f71b9e7159d793f47a66017581da0e54, type: 2}
   - Colliders:
     - {fileID: 593721597}
     - {fileID: 1165034717}
     - {fileID: 632110431}
     - {fileID: 2059442382}
+    bechavior: {fileID: 11400000, guid: 4df9256298240494db9ebb407685e92b, type: 2}
   - Colliders:
     - {fileID: 584278182}
     - {fileID: 2083686983}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 611188073}
     - {fileID: 1100324894}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 816634129}
     - {fileID: 32083182}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 916087857}
     - {fileID: 1485290598}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 113874367}
     - {fileID: 48400159}
     - {fileID: 250099889}
     - {fileID: 71771303}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 724480575}
     - {fileID: 250107722}
     - {fileID: 67127564}
     - {fileID: 1832505288}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 1063259604}
     - {fileID: 1131865413}
     - {fileID: 253575171}
     - {fileID: 70154956}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 1981443905}
     - {fileID: 224206199}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 607305246}
     - {fileID: 1105989908}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 1799047665}
     - {fileID: 2019182308}
     - {fileID: 688239939}
     - {fileID: 687198767}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 1772904765}
     - {fileID: 1355639355}
     - {fileID: 1228204269}
     - {fileID: 927727672}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 118344610}
     - {fileID: 1757779890}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 838447719}
     - {fileID: 1086151094}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 1370102627}
     - {fileID: 958586532}
     - {fileID: 186014164}
     - {fileID: 864705530}
+    bechavior: {fileID: 0}
   - Colliders:
     - {fileID: 1871709952}
     - {fileID: 2130826898}
+    bechavior: {fileID: 0}
 --- !u!1001 &2108593295
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,14 +1,21 @@
  
-using System.Collections;
 using UnityEngine;
+using Zenject;
 
 [RequireComponent(typeof(MovmentComponent))]
 public class Entity : MonoBehaviour, IEntity
 {
     [HideInInspector] public MovmentComponent moveComponent;
     [HideInInspector] public Animator animator;
-    private StateMashine stateMashine;
-    private float timerInterval = 1f;
+    [HideInInspector] public DataRoom curenRoom;
+
+    [Inject] private RoomManager _roomManager;
+
+    private StateMashine _stateMashine;
+
+    [SerializeField] private float timerInterval = 1f;
+    private float _curentTimerInterval;
+
 
     private void Awake()
     {
@@ -18,32 +25,37 @@ public class Entity : MonoBehaviour, IEntity
     private void Start()
     {
         StartStateMachine();
-        StartCoroutine(CheckWhereAreYou());
     }
     private void Update()
     {
-        stateMashine.UpdateCurentState();
+        _stateMashine.UpdateCurentState();
+        FindCurentRoom(); 
     }
     public string Name => "Martin";
 
     public void Move(Vector2 position)
     {
         moveComponent.MoveTo(position);
-        stateMashine.ChangeState<Move_StateEntity>();
+        _stateMashine.ChangeState<Move_StateEntity>();
 
     }
     protected virtual void StartStateMachine()
     {
-        stateMashine = new();
-        stateMashine.AddState(new Move_StateEntity(stateMashine, this));
-        stateMashine.AddState(new Idle_StateEntity(stateMashine, this));
+        _stateMashine = new();
+        _stateMashine.AddState(new Idle_StateEntity(_stateMashine, this));
+        _stateMashine.AddState(new Move_StateEntity(_stateMashine, this));
+        _stateMashine.AddState(new OperateRoom_StateEntity(_stateMashine, this));
+        _stateMashine.ChangeState<Idle_StateEntity>();
     }
-    private IEnumerator CheckWhereAreYou()
+    private void FindCurentRoom()//В какой ты комнате 
     {
-        while (true)
-        {
+        _curentTimerInterval -= Time.deltaTime;
 
-            yield return new WaitForSeconds(timerInterval);
+        if (_curentTimerInterval <= 0)
+        {
+            curenRoom = _roomManager.GetRoomByPosition(transform.position);
+            _curentTimerInterval = timerInterval;
         }
     }
+     
 }

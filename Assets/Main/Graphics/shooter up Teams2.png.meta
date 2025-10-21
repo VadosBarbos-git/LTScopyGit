@@ -1600,7 +1600,7 @@ TextureImporter:
       name: shooter up Teams2_67
       rect:
         serializedVersion: 2
-        x: 160
+        x: 288
         y: 32
         width: 32
         height: 32
@@ -1622,7 +1622,7 @@ TextureImporter:
       name: shooter up Teams2_68
       rect:
         serializedVersion: 2
-        x: 192
+        x: 320
         y: 32
         width: 32
         height: 32
@@ -1644,7 +1644,7 @@ TextureImporter:
       name: shooter up Teams2_69
       rect:
         serializedVersion: 2
-        x: 224
+        x: 352
         y: 32
         width: 32
         height: 32
@@ -1666,8 +1666,8 @@ TextureImporter:
       name: shooter up Teams2_70
       rect:
         serializedVersion: 2
-        x: 256
-        y: 32
+        x: 0
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -1688,8 +1688,8 @@ TextureImporter:
       name: shooter up Teams2_71
       rect:
         serializedVersion: 2
-        x: 288
-        y: 32
+        x: 32
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -1710,8 +1710,8 @@ TextureImporter:
       name: shooter up Teams2_72
       rect:
         serializedVersion: 2
-        x: 320
-        y: 32
+        x: 128
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -1732,8 +1732,8 @@ TextureImporter:
       name: shooter up Teams2_73
       rect:
         serializedVersion: 2
-        x: 352
-        y: 32
+        x: 160
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -1754,8 +1754,8 @@ TextureImporter:
       name: shooter up Teams2_74
       rect:
         serializedVersion: 2
-        x: 384
-        y: 32
+        x: 288
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -1776,8 +1776,8 @@ TextureImporter:
       name: shooter up Teams2_75
       rect:
         serializedVersion: 2
-        x: 416
-        y: 32
+        x: 320
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -1798,8 +1798,8 @@ TextureImporter:
       name: shooter up Teams2_76
       rect:
         serializedVersion: 2
-        x: 448
-        y: 32
+        x: 352
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -1812,204 +1812,6 @@ TextureImporter:
       bones: []
       spriteID: 922779765683a4342b7dd02c3107d6e0
       internalID: -1478670455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shooter up Teams2_77
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aabb564fdb6818a47b303363a2e42f8c
-      internalID: 1602804606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shooter up Teams2_78
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3b11efd109b3af4a8a8c382c1e6a89c
-      internalID: 861577691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shooter up Teams2_79
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8858382f54fb6044aa368fd8f7f4c3a
-      internalID: 1898038815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shooter up Teams2_80
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0502f4e6578223746b15a59d0fc6c341
-      internalID: 178580571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shooter up Teams2_81
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 072ea17da7b932047ace94bc7c873096
-      internalID: -640122650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shooter up Teams2_82
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6e1180da3fc0e4449896fb20a40773d
-      internalID: -1014665636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shooter up Teams2_83
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 227c2819fc8b96341bc9fc535424cc18
-      internalID: 2077824901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shooter up Teams2_84
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20ced499bcc9821448c4f7f51e74ffad
-      internalID: 1538920356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shooter up Teams2_85
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43558e46d5c724b41aad1c1dd5ae0307
-      internalID: -1336552471
       vertices: []
       indices: 
       edges: []
@@ -2103,16 +1905,7 @@ TextureImporter:
       shooter up Teams2_74: 731880778
       shooter up Teams2_75: -245369144
       shooter up Teams2_76: -1478670455
-      shooter up Teams2_77: 1602804606
-      shooter up Teams2_78: 861577691
-      shooter up Teams2_79: 1898038815
       shooter up Teams2_8: 2147263262
-      shooter up Teams2_80: 178580571
-      shooter up Teams2_81: -640122650
-      shooter up Teams2_82: -1014665636
-      shooter up Teams2_83: 2077824901
-      shooter up Teams2_84: 1538920356
-      shooter up Teams2_85: -1336552471
       shooter up Teams2_9: 291938624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

@@ -6,7 +6,8 @@ using UnityEngine;
 public class DataRoom
 {
     [SerializeField] private List<GameObject> Colliders = new();
-    public RoomScriptableObject roomObject; 
+
+    public RoomBaseBehavior bechavior;
     public List<GameObject> GetCollidersFromData() => Colliders;
 
 }
