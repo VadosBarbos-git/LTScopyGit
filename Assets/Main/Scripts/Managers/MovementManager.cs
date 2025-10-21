@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 using UnityEngine.AI;
 using Zenject;
@@ -19,6 +20,9 @@ public class MovementManager : MonoBehaviour
         List<GameObject> boxes = new();
         boxes = FilterFreeBoxesInRoom(FindRoom(boxPressed), boxPressed);
 
+        //метод который помещает MainColliderBox в начало если он есть в списке 
+        boxes = SortCollidersForOperableRoom(boxes);
+
         for (int i = 0; i < boxes.Count; i++)
         {
             if (characters.Count <= i) break;
@@ -33,6 +37,23 @@ public class MovementManager : MonoBehaviour
         }
 
         selectionManager.Clear();
+    }
+    private List<GameObject> SortCollidersForOperableRoom(List<GameObject> allColloders)
+    {
+        if (allColloders.Count <= 0) return null;
+        List<GameObject> result = new();
+        DataRoom room = FindRoom(allColloders[0]);
+        GameObject mainCollider = room.GetOperableSqureIfItOperableRoom();
+        if (mainCollider == null || !allColloders.Contains(mainCollider))
+            return allColloders;
+
+        result.Add(mainCollider);
+        for (int i = 0; i < allColloders.Count; i++)
+        {
+            if (!result.Contains(allColloders[i]))
+                result.Add(allColloders[i]);
+        }
+        return result;
     }
 
     private DataRoom FindRoom(GameObject boxPressed)

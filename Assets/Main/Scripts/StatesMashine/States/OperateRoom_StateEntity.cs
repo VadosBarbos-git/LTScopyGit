@@ -7,8 +7,8 @@ public class OperateRoom_StateEntity : EntityState
     public override void Update()
     {
         base.Update();
-        if (entity.curenRoom == null || entity.curenRoom.bechavior == null
-            || entity.curenRoom.bechavior is not IOperableRoomBehavior operableRoom
+        if (entity.curenRoom == null || entity.curenRoom.behavior == null
+            || entity.curenRoom.behavior is not IOperableRoomBehavior operableRoom
             || !operableRoom.CamThisEntityOperate(entity))
         {
             stateMashine.ChangeState<Idle_StateEntity>();
