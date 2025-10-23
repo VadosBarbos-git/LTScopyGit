@@ -1,16 +1,15 @@
 using UnityEngine;
+using Zenject;
 
 public class ShipController : MonoBehaviour
 {
-     
-    void Start()
+    [Inject] private RoomManager _roomManager;
+    [Inject] private ShipView _shipView;
+    private void Start()
     {
-        ShipData shipdata = new();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        ShipData data = new();
+        data.SetAllRooms(_roomManager.GetRooms());
+        _shipView.UodateAll();
+        _shipView.UpdateEnergyInRooms(data.GetAllRooms());
     }
 }

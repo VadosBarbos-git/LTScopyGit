@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class RoomManager : MonoBehaviour
 {
-    [SerializeField] private List<DataRoom> Rooms = new();
+    [SerializeField] private List<DataRoom> Rooms = new(); 
     public List<DataRoom> GetRooms()
     {
         List<DataRoom> result = new List<DataRoom>();
@@ -18,8 +18,9 @@ public class RoomManager : MonoBehaviour
             for (int j = 0; j < ObjColliders.Count; j++)
             {
                 BoxCollider2D box = ObjColliders[j].GetComponent<BoxCollider2D>();
-                if (box != null && IsPointInsideBox(box, position))
+                if (box != null && IsPointInsideBox(box, position)) 
                     return Rooms[i];
+                 
             }
         }
         return null;

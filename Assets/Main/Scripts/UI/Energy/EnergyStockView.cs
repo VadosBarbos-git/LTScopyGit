@@ -2,31 +2,24 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HullStrengthBarController : MonoBehaviour
+public class EnergyStockView : MonoBehaviour
 {
+    public VerticalLayoutGroup layoutGroup;
     public GameObject parentPoints;
-    private HorizontalLayoutGroup layoutGroup;
-    private void Awake()
+    public void UpdateStockEnergyView(int MaxEnergy, int energyInStack)
     {
-        layoutGroup = parentPoints.GetComponent<HorizontalLayoutGroup>();
-    }
-    public void UpdatePointsView(int CurentValue, int maxValue)
-    {
-        if (maxValue <= 0) return;
-        if (CurentValue > maxValue) return;
-
         layoutGroup.enabled = true;
 
-        for (int i = parentPoints.transform.childCount; i < maxValue; i++)
+        for (int i = parentPoints.transform.childCount; i < MaxEnergy; i++)
         {
             Instantiate(parentPoints.transform.GetChild(0), parentPoints.transform);
         }
-        for (int i = parentPoints.transform.childCount - 1; i >= maxValue; i--)
+        for (int i = parentPoints.transform.childCount - 1; i >= MaxEnergy; i--)
         {
             Destroy(parentPoints.transform.GetChild(i).gameObject);
         }
 
-        StartCoroutine(UpdateVisualBar(CurentValue));
+        StartCoroutine(UpdateVisualBar(energyInStack));
         StartCoroutine(closeLayoutGroupe());
     }
     private IEnumerator closeLayoutGroupe()
@@ -43,13 +36,11 @@ public class HullStrengthBarController : MonoBehaviour
 
         for (int i = 0; i < parentPoints.transform.childCount; i++)
         {
-            Image image = parentPoints.transform.GetChild(i).GetComponent<Image>();
+            Image image = parentPoints.transform.GetChild(i).GetChild(0).GetComponent<Image>();
             if (i < curentBar)
                 image.enabled = true;
             else
                 image.enabled = false;
         }
     }
-
-
 }

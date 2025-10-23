@@ -1,5 +1,6 @@
  
 public interface IHasEnergyRoom
 {
-    public float Energy { get; set; }
+    public int EnergyCurent { get; set; }
+    public int EnergyMax { get; set; }
 }

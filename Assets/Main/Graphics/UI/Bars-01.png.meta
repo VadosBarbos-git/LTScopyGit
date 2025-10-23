@@ -1112,6 +1112,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bars-01_45
+      rect:
+        serializedVersion: 2
+        x: 4667
+        y: 6867
+        width: 1722
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319a8e8ff8983e040b5a43054818a094
+      internalID: 1732301196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1166,6 +1188,7 @@ TextureImporter:
       Bars-01_42: -1093072818
       Bars-01_43: 632186296
       Bars-01_44: 1733359967
+      Bars-01_45: 1732301196
       Bars-01_5: 941840044
       Bars-01_6: 1613837023
       Bars-01_7: -537209136

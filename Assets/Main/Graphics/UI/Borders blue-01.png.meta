@@ -121,12 +121,1068 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Borders blue-01_0
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 7101
+        width: 597
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b74d890ed61af4e96b30bff730ecc1
+      internalID: -1683265059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_1
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 7093
+        width: 600
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcbd69dd9a64af409cb2294b5fc3892
+      internalID: -2060331600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_2
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 7126
+        width: 1019
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0edf08419144c341b3e57a0629653c3
+      internalID: -1062464141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_3
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 7083
+        width: 628
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eea5a333a803f04d8367cef24bee8dc
+      internalID: 2054311061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_4
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 7029
+        width: 623
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfee25f70d188484c86c6cefe39172c1
+      internalID: -1365658085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_5
+      rect:
+        serializedVersion: 2
+        x: 7650
+        y: 4262
+        width: 2256
+        height: 4006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3407c83a07aae8c489bc37f08b33c466
+      internalID: 1505758767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 6592
+        width: 1017
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a74321f6e0e491439bb8c15892cf2e8
+      internalID: -1082073817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_7
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 5865
+        width: 600
+        height: 1065
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c30de85307d824c8c408821adfaf2d
+      internalID: -490149801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_8
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 6541
+        width: 1007
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627398ee9054fc549bc9e6a76e7c5cd7
+      internalID: 1518271612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_9
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 6861
+        width: 564
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b52431ca332e0a43b320b3c9aeffaba
+      internalID: -1101261160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_10
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 6808
+        width: 559
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba6f46cdeb94ee4ea298421042346fc
+      internalID: 1936376281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_11
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 6615
+        width: 626
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd66c417356998e46a18ab8546a019da
+      internalID: -2131276363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_12
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 6561
+        width: 626
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eebabaedb6305b46b1cd543bd3c53b1
+      internalID: -1680742848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_13
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 6124
+        width: 1017
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e490446e8f61a645942052853367c80
+      internalID: -1020193451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_14
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 5982
+        width: 451
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0765865e0b94c4780d665f7e12bc5a
+      internalID: -1912410794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_15
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 6391
+        width: 564
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed41dc8471b06b3438ffbb4a8d593d32
+      internalID: 1755630686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_16
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 6340
+        width: 562
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771f8134d607e4f438eb6ade969aa355
+      internalID: -322368096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_17
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 6172
+        width: 240
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5ae6b98ee241a46a11d46e4f53fbe3
+      internalID: -908844711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_18
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 6149
+        width: 564
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f95a3a5be6249843ad03c33dc8fe19c
+      internalID: -1413361875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_19
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 6096
+        width: 562
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78342f9d320d7d844b0a4f94b8ef27f5
+      internalID: 1538636343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 5661
+        width: 1020
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab19f1fe91792604fbe209c32942938b
+      internalID: -884066942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_21
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 5997
+        width: 284
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a7ab5e05e286a41aa3df1f66ff8847
+      internalID: 1991580397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_22
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 5898
+        width: 204
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1f94d6d2602a34599c7e785351967a
+      internalID: -71189505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_23
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 5496
+        width: 485
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e37ef447837ff438a36f41e0499231
+      internalID: 965929522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_24
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 5496
+        width: 483
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cbd049c3bcbf342b150edb1d620f40
+      internalID: 1556753463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_25
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 5643
+        width: 201
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218e1af39c28b8b4aa4e72cfb20e6db4
+      internalID: -504141150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_26
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 5643
+        width: 201
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80cf6a2751dd79459bd34dba1f12ea6
+      internalID: -1124885741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_27
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 5829
+        width: 163
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9ef89a6e5dee445948690705befb22
+      internalID: -2080781299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_28
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 5758
+        width: 323
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e65592360036d84a90fc6a80961ce89
+      internalID: -513044146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_29
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 5684
+        width: 379
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674c8179aaef9c44c82da5e7536a8398
+      internalID: 799644701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_30
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 5422
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c63fc15f8020644a143f3b7aac4533
+      internalID: -250785303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_31
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 5447
+        width: 221
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978cfcc43d7143d448bd0474b62c70f5
+      internalID: -1362638759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_32
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 5447
+        width: 222
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ead209ff5632a48a7fa1c854713b0c
+      internalID: -421497753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_33
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 5608
+        width: 379
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa08f8eb7a5090840af9b2549292a971
+      internalID: 1516606788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_34
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 5142
+        width: 1020
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c425c56d3eb836449ebe04d1622fa71
+      internalID: -116461754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_35
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 5506
+        width: 379
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eda1f0a5b0bdc544ad73dc713130c68
+      internalID: 1490939594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_36
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 5186
+        width: 198
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c3d4bed0ac6c846ac23954b2723564
+      internalID: 1223663853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_37
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 5186
+        width: 201
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf020635bbb37040b1b7fe6c4181124
+      internalID: 1815190930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_38
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 5178
+        width: 221
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7110dd9bf32b3c8439d20d9bf01e0aa2
+      internalID: -1057149788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_39
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 5178
+        width: 222
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ebae975446faa498f16b1c220663bc
+      internalID: 2030928209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_40
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 5287
+        width: 308
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b3a92e0d9f97b4985c3b7f2bf150c4
+      internalID: 421364835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_41
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 4919
+        width: 483
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bc6329e0e139a4f9a05734e0365f36
+      internalID: 1432277248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_42
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 4919
+        width: 483
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a685ebd45220b2541840264316eeeaca
+      internalID: 618393779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_43
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 2487
+        width: 2256
+        height: 2256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1461fcbe5c3d730479fbec4010f7e5be
+      internalID: 1164367474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_44
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 2487
+        width: 4003
+        height: 2256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5368d9266670764eb66d1feb9ce282a
+      internalID: -1279692526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_46
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 66
+        width: 2256
+        height: 2256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5265d285407ef41841a24984a1abe5
+      internalID: 781854430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_47
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 33
+        width: 4003
+        height: 2256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2313adbac4032044d8a506cab05a33dd
+      internalID: 1188551468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Borders blue-01_48
+      rect:
+        serializedVersion: 2
+        x: 7655
+        y: 76
+        width: 2256
+        height: 4006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e513808d41cbd74eaeb025c6cccf2b5
+      internalID: -354617768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7f6a5f1dd8b5af84593b29043343a3db
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +1191,56 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Borders blue-01_0: -1683265059
+      Borders blue-01_1: -2060331600
+      Borders blue-01_10: 1936376281
+      Borders blue-01_11: -2131276363
+      Borders blue-01_12: -1680742848
+      Borders blue-01_13: -1020193451
+      Borders blue-01_14: -1912410794
+      Borders blue-01_15: 1755630686
+      Borders blue-01_16: -322368096
+      Borders blue-01_17: -908844711
+      Borders blue-01_18: -1413361875
+      Borders blue-01_19: 1538636343
+      Borders blue-01_2: -1062464141
+      Borders blue-01_20: -884066942
+      Borders blue-01_21: 1991580397
+      Borders blue-01_22: -71189505
+      Borders blue-01_23: 965929522
+      Borders blue-01_24: 1556753463
+      Borders blue-01_25: -504141150
+      Borders blue-01_26: -1124885741
+      Borders blue-01_27: -2080781299
+      Borders blue-01_28: -513044146
+      Borders blue-01_29: 799644701
+      Borders blue-01_3: 2054311061
+      Borders blue-01_30: -250785303
+      Borders blue-01_31: -1362638759
+      Borders blue-01_32: -421497753
+      Borders blue-01_33: 1516606788
+      Borders blue-01_34: -116461754
+      Borders blue-01_35: 1490939594
+      Borders blue-01_36: 1223663853
+      Borders blue-01_37: 1815190930
+      Borders blue-01_38: -1057149788
+      Borders blue-01_39: 2030928209
+      Borders blue-01_4: -1365658085
+      Borders blue-01_40: 421364835
+      Borders blue-01_41: 1432277248
+      Borders blue-01_42: 618393779
+      Borders blue-01_43: 1164367474
+      Borders blue-01_44: -1279692526
+      Borders blue-01_45: 2034831950
+      Borders blue-01_46: 781854430
+      Borders blue-01_47: 1188551468
+      Borders blue-01_48: -354617768
+      Borders blue-01_5: 1505758767
+      Borders blue-01_6: -1082073817
+      Borders blue-01_7: -490149801
+      Borders blue-01_8: 1518271612
+      Borders blue-01_9: -1101261160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

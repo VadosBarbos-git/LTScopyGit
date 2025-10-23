@@ -8,5 +8,6 @@ public class ManagersInstaller : MonoInstaller
         Container.Bind<MovementManager>().FromComponentInHierarchy().AsSingle(); 
         Container.Bind<RoomManager>().FromComponentInHierarchy().AsSingle();
         Container.Bind<MouseInputHandler>().FromComponentInHierarchy().AsSingle();
+        Container.Bind<ShipView>().FromComponentInHierarchy().AsSingle();
     }
 }

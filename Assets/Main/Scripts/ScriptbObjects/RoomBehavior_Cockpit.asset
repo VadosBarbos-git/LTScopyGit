@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9495d0a02b142d40881ff46da7b4d47, type: 3}
   m_Name: RoomBehavior_Cockpit
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 1270193268, guid: f48e79849b586af46860845ced8d66b3, type: 3}
