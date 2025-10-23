@@ -1,7 +1,6 @@
 
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEngine;
 
 public class ShipData
 {
@@ -18,22 +17,44 @@ public class ShipData
     #region Shields
     public int curentShieldsValue;
     public int maxShieldValue;
-    //public float 
+    public float curentTimeForUpdateShield;
+    public float finishTimeForUpdateShields;
+    public float speedUpdateShields;
     #endregion
 
-    
-    public float curentTime = 1f;
-    public float maxTime = 4f;
-    [Header("Oxygen/Maneuverability")]
-    public float maneuverability = 15f;//%
-    public float oxygen = 90;//%
+    #region Others 
+    public float maneuverability;//%
+    public float oxygen; //%
+    #endregion
+    public ShipData(List<DataRoom> rooms)
+    {
+        SetAllRooms(rooms);
+        ClearAllRoomsSomeData();
+        maxEnergyForShip = 8;
+        curenEnergyInShipStock = 8;
+
+        maxHelthShip = 14;
+        curentHelthShip = 14;
+         
+        curentShieldsValue = 0;
+        maxShieldValue = 1;
+        curentTimeForUpdateShield = 0;
+        finishTimeForUpdateShields = 5;
+        speedUpdateShields = 1; 
+
+        maneuverability = 0;//%
+        oxygen = 100; //%
+
+
+    }
+    public HashSet<DataRoom> GetAllRooms() => AllRooms;
+    public HashSet<DataRoom> GetOperableRooms() => OperabelsRooms;
 
 
     private HashSet<DataRoom> AllRooms = new();
     private HashSet<DataRoom> OperabelsRooms = new();
-    public HashSet<DataRoom> GetAllRooms() => AllRooms;
-    public HashSet<DataRoom> GetOperableRooms() => OperabelsRooms;
-    public void SetAllRooms(List<DataRoom> rooms)
+
+    private void SetAllRooms(List<DataRoom> rooms)
     {
         AllRooms.Clear();
         AllRooms.AddRange(rooms);
@@ -46,6 +67,17 @@ public class ShipData
         {
             if (item.behavior is IOperableRoomBehavior)
                 OperabelsRooms.Add(item);
+        }
+    }
+    private void ClearAllRoomsSomeData()
+    {
+        foreach (var room in AllRooms)
+        {
+            if(room.behavior is IOperableRoomBehavior operRoom)
+            {
+                operRoom.EnergyCurent = 0;
+                operRoom.EnergyMax = 2;
+            }
         }
     }
 

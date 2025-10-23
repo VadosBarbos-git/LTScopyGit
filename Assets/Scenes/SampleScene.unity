@@ -4298,6 +4298,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5464289551945209669, guid: e31ebf8cee2ea00499aca0a1b4df7393, type: 3}
   m_PrefabInstance: {fileID: 535405708}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &551554769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 551554770}
+  m_Layer: 0
+  m_Name: parentForIconRooms
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &551554770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551554769}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1216807778}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &556469191
 GameObject:
   m_ObjectHideFlags: 0
@@ -10290,6 +10321,7 @@ GameObject:
   - component: {fileID: 1216807778}
   - component: {fileID: 1216807780}
   - component: {fileID: 1216807779}
+  - component: {fileID: 1216807781}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -10309,7 +10341,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 551554770}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1216807779
@@ -10324,15 +10357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1998c70089ac6a14fb18df3b5e1257d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHelthBar: 10
-  curenHelthBar: 8
-  shieldsValue: 2
-  curentTime: 1
-  maxTime: 4
-  maneuverability: 15
-  oxygen: 90
-  maxEnergy: 8
-  energyInStack: 8
   ManeuverabilityText: {fileID: 860774921}
   OxygenText: {fileID: 1202532836}
   HullBarControler: {fileID: 447815303}
@@ -10351,6 +10375,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6d7b2f2b46453243be3449932316f56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1216807781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216807777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb43f771867d7d4c9dd6872b427b20f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpritePrefab: {fileID: 6713459456384946735, guid: 6fe4d3f768e4c184e8cd7c503059edd6, type: 3}
+  parentForIconRoooms: {fileID: 551554769}
 --- !u!1 &1223877294
 GameObject:
   m_ObjectHideFlags: 0
@@ -10945,7 +10983,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1286237915
 RectTransform:
   m_ObjectHideFlags: 0

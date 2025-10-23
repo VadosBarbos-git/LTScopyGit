@@ -1,10 +1,11 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "RoomBehavior_Cockpit", menuName = "Game/Cockpit")]
-public class RoomBehavior_Cockpit : RoomBaseBehavior, IOperableRoomBehavior
+[CreateAssetMenu(fileName = "RoomBehavior_Oxygen", menuName = "Game/OxygenRoom")]
+public class RoomBehavior_Oxygen : RoomBaseBehavior, IOperableRoomBehavior
 {
     public int EnergyCurent { get; set; }
     public int EnergyMax { get; set; }
+
     public bool CamThisEntityOperate(Entity entity)
     {
         return true;
