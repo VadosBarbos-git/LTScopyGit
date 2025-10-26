@@ -13,6 +13,16 @@ public class OperateRoom_StateEntity : EntityState
         {
             stateMashine.ChangeState<Idle_StateEntity>();
         }
+        else
+            operableRoom.ActionOperable();
+    }
+    public override void Exit()
+    {
+        base.Exit();
+        if (entity.curenRoom != null && entity.curenRoom.behavior != null
+            && entity.curenRoom.behavior is IOperableRoomBehavior operableRoom)
+            operableRoom.EntityExitFromRoom(entity);
+
     }
 
 }

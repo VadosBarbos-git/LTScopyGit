@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b5eaad674d31484c9f55644f4e95f74, type: 3}
-  m_Name: RoomBehavior_Medical
+  m_Script: {fileID: 11500000, guid: 71d04db7e3e169240958b39c75944b13, type: 3}
+  m_Name: RoomBehavior_Oxygen
   m_EditorClassIdentifier: 
-  icon: {fileID: -2057189624, guid: ac7bf37d1744b1b4688b8bfa81efcb8f, type: 3}
+  icon: {fileID: 1007248528, guid: ac7bf37d1744b1b4688b8bfa81efcb8f, type: 3}

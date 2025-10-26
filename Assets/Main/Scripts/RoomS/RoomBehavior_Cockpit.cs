@@ -1,17 +1,6 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "RoomBehavior_Cockpit", menuName = "Game/Cockpit")]
-public class RoomBehavior_Cockpit : RoomBaseBehavior, IOperableRoomBehavior
-{
-    public int EnergyCurent { get; set; }
-    public int EnergyMax { get; set; }
-    public bool CamThisEntityOperate(Entity entity)
-    {
-        return true;
-    }
-
-    public Sprite GetIconRoom()
-    {
-        return icon;
-    }
+public class RoomBehavior_Cockpit : OperateRoomBehavior
+{ 
 }

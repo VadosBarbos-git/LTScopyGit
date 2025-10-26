@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb822a4e1942aa44b8257c278b2a2b5, type: 3}
   m_Name: RoomBehavior_Weapon
   m_EditorClassIdentifier: 
-  icon: {fileID: 924751155, guid: f48e79849b586af46860845ced8d66b3, type: 3}
+  icon: {fileID: 352252751, guid: ac7bf37d1744b1b4688b8bfa81efcb8f, type: 3}

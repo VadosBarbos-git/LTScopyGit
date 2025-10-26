@@ -1,4 +1,4 @@
- 
+
 using UnityEngine;
 using Zenject;
 
@@ -7,7 +7,7 @@ public class Entity : MonoBehaviour, IEntity
 {
     [HideInInspector] public MovmentComponent moveComponent;
     [HideInInspector] public Animator animator;
-    [HideInInspector] public DataRoom curenRoom;
+    [HideInInspector] public DataRoom curenRoom; 
 
     [Inject] private RoomManager _roomManager;
 
@@ -20,7 +20,7 @@ public class Entity : MonoBehaviour, IEntity
     private void Awake()
     {
         moveComponent = GetComponent<MovmentComponent>();
-        animator = GetComponentInChildren<Animator>();
+        animator = GetComponentInChildren<Animator>(); 
     }
     private void Start()
     {
@@ -29,7 +29,7 @@ public class Entity : MonoBehaviour, IEntity
     private void Update()
     {
         _stateMashine.UpdateCurentState();
-        FindCurentRoom(); 
+        FindCurentRoom();
     }
     public string Name => "Martin";
 
@@ -57,5 +57,5 @@ public class Entity : MonoBehaviour, IEntity
             _curentTimerInterval = timerInterval;
         }
     }
-     
+
 }

@@ -7,41 +7,44 @@ public class MouseSelection : MonoBehaviour
     [Header("UI рамка выделения")]
     [SerializeField] private RectTransform selectionBox;
     [SerializeField] private Camera mainCamera;
-    [SerializeField] private LayerMask selectableMask;
+    private static Material slectMaterial;
 
     /* Ditails */
-    private Vector3 startPos;
-    private Vector3 endPos;
-    private bool isSelecting;
+    private Vector3 _startPos;
+    private Vector3 _endPos;
+    private bool _isSelecting;
     private float timeStart = 0;
     private float minPassedTime = 0.2f;
     private string TagSelectable = "Selectable";
 
     [Inject] SelectionManager _selectionManager;
 
-
+    void Awake()
+    {
+        slectMaterial = new Material(Shader.Find("Hidden/GLLine"));
+    }
     void Update()
     {
         // Начало выделения
         if (Input.GetMouseButtonDown(0))
         {
             timeStart = 0;
-            startPos = Input.mousePosition;
-            isSelecting = true;
+            _startPos = Input.mousePosition;
+            _isSelecting = true;
         }
 
         // Обновление рамки
-        if (isSelecting)
+        if (_isSelecting)
         {
             timeStart += Time.deltaTime;
-            endPos = Input.mousePosition;
-            UpdateSelectionBox();
+            _endPos = Input.mousePosition;
+            // UpdateSelectionBox();
         }
 
 
-        if (Input.GetMouseButtonUp(0) && isSelecting)
+        if (Input.GetMouseButtonUp(0) && _isSelecting)
         {
-            isSelecting = false;
+            _isSelecting = false;
             if (timeStart >= minPassedTime)
             {
                 SelectObjects();
@@ -51,13 +54,46 @@ public class MouseSelection : MonoBehaviour
         }
 
     }
+     
+    private void OnRenderObject()
+    {
+        
+        if (!_isSelecting )
+            return; 
+        GL.PushMatrix();
+        slectMaterial.SetPass(0);
+        GL.LoadOrtho();
+        GL.Begin(GL.LINES);
+        GL.Color(Color.green);
+        Vector2 p1 = _startPos;
+        Vector2 p2 = _endPos;
+        float x1 = p1.x / Screen.width;
+        float y1 = p1.y / Screen.height;
+        float x2 = p2.x / Screen.width;
+        float y2 = p2.y / Screen.height;
+
+        GL.Vertex3(x1, y1, 0);
+        GL.Vertex3(x2, y1, 0);
+
+        GL.Vertex3(x2, y1, 0);
+        GL.Vertex3(x2, y2, 0);
+
+        GL.Vertex3(x2, y2, 0);
+        GL.Vertex3(x1, y2, 0);
+
+        GL.Vertex3(x1, y2, 0);
+        GL.Vertex3(x1, y1, 0);
+        GL.End();
+        GL.PopMatrix();
+         
+    }
     public void UpdateSelectionBox()
     {
         if (!selectionBox.gameObject.activeInHierarchy)
             selectionBox.gameObject.SetActive(true);
 
-        Vector2 startScreen = startPos;
-        Vector2 endScreen = endPos;
+        Vector2 startScreen = _startPos;
+        Vector2 endScreen = _endPos;
         RectTransform parentRect = selectionBox.parent as RectTransform;
         Vector2 startLocal;
         Vector2 endLocal;
@@ -79,8 +115,8 @@ public class MouseSelection : MonoBehaviour
         List<GameObject> selectedObjects = new();
 
         // Преобразуем рамку в мировые координаты
-        Vector2 min = startPos;
-        Vector2 max = endPos;
+        Vector2 min = _startPos;
+        Vector2 max = _endPos;
         if (min.x > max.x) (min.x, max.x) = (max.x, min.x);
         if (min.y > max.y) (min.y, max.y) = (max.y, min.y);
 
@@ -91,12 +127,10 @@ public class MouseSelection : MonoBehaviour
             if (screenPos.x > min.x && screenPos.x < max.x &&
                 screenPos.y > min.y && screenPos.y < max.y)
             {
-                selectedObjects.Add(selectable); 
+                selectedObjects.Add(selectable);
             }
-           
+
         }
-
-
         List<IEntity> characters = new();
         for (int i = 0; i < selectedObjects.Count; i++)
         {
@@ -106,5 +140,5 @@ public class MouseSelection : MonoBehaviour
 
 
     }
-   
+
 }

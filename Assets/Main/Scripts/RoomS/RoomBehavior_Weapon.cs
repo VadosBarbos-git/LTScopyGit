@@ -2,18 +2,21 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "RoomBehavior_Weapon", menuName = "Game/WeaponRoom")]
-public class RoomBehavior_Weapon : RoomBaseBehavior, IOperableRoomBehavior
+public class RoomBehavior_Weapon : OperateRoomBehavior
 {
-    public int EnergyCurent { get; set; }
-    public int EnergyMax { get; set; }
-
-    public bool CamThisEntityOperate(Entity entity)
+    public override void ActionOperable()
     {
-        return true;
+        base.ActionOperable();
+        ChargeWeapon();
     }
-
-    public Sprite GetIconRoom()
+    private void ChargeWeapon()
     {
-        return icon;
+        dataRoom.shipController.WeaponCharge(curentEntity);
+    }
+    public override void EntityExitFromRoom(Entity entiry)
+    {
+        base.EntityExitFromRoom(entiry);
+        if (curentEntity == null)
+            dataRoom.shipController.WeaponCharge(null, true);
     }
 }

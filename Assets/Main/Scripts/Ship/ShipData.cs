@@ -13,13 +13,17 @@ public class ShipData
     public int maxHelthShip;
     public int curentHelthShip;
     #endregion
+    #region WeaponDitails
+    public const float speedUpdateWeapon = 1;
+    public List<IWeapon> Weapons;
+    #endregion
 
     #region Shields
     public int curentShieldsValue;
     public int maxShieldValue;
     public float curentTimeForUpdateShield;
     public float finishTimeForUpdateShields;
-    public float speedUpdateShields;
+    public const float speedUpdateShields = 1;
     #endregion
 
     #region Others 
@@ -28,6 +32,7 @@ public class ShipData
     #endregion
     public ShipData(List<DataRoom> rooms)
     {
+
         SetAllRooms(rooms);
         ClearAllRoomsSomeData();
         maxEnergyForShip = 8;
@@ -35,12 +40,11 @@ public class ShipData
 
         maxHelthShip = 14;
         curentHelthShip = 14;
-         
+
         curentShieldsValue = 0;
-        maxShieldValue = 1;
+        maxShieldValue = 3;
         curentTimeForUpdateShield = 0;
         finishTimeForUpdateShields = 5;
-        speedUpdateShields = 1; 
 
         maneuverability = 0;//%
         oxygen = 100; //%
@@ -73,7 +77,7 @@ public class ShipData
     {
         foreach (var room in AllRooms)
         {
-            if(room.behavior is IOperableRoomBehavior operRoom)
+            if (room.behavior is IOperableRoomBehavior operRoom)
             {
                 operRoom.EnergyCurent = 0;
                 operRoom.EnergyMax = 2;

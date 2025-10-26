@@ -7,6 +7,7 @@ public class DataRoom
 {
     [SerializeField] private List<GameObject> Colliders = new();
     [SerializeField] private GameObject MainBoxColliderForOperable;
+    [HideInInspector] public ShipController shipController;
 
     public RoomBaseBehavior behavior;
     public List<GameObject> GetCollidersFromData() => Colliders;
@@ -17,10 +18,13 @@ public class DataRoom
             if (MainBoxColliderForOperable == null)
                 Debug.LogError("не добавлен MainBoxCollider в RoomData");
             else
-                return MainBoxColliderForOperable; 
+                return MainBoxColliderForOperable;
         }
 
         return null;
     }
+    public void SetShipControler(ShipController shipC) =>
+        shipController = shipC;
+
 
 }

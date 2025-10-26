@@ -3,20 +3,22 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "RoomBehavior_Shield", menuName = "Game/RoomShield")]
-public class RoomBehavior_Shield : RoomBaseBehavior, IOperableRoomBehavior
+public class RoomBehavior_Shield : OperateRoomBehavior
 {
-    public int EnergyCurent { get; set; }
-    public int EnergyMax { get; set; }
-
-    public bool CamThisEntityOperate(Entity entity)
+    public override void ActionOperable()
     {
-        return true;
+        base.ActionOperable();
+        ChargeShields();
     }
-
-    public Sprite GetIconRoom()
+    private void ChargeShields()
     {
-        return icon;
+        dataRoom.shipController.ChargeShields(curentEntity);
     }
-
+    public override void EntityExitFromRoom(Entity entiry)
+    {
+        base.EntityExitFromRoom(entiry);
+        if (curentEntity == null)
+            dataRoom.shipController.ChargeShields(null, true);
+    }
 }
 
